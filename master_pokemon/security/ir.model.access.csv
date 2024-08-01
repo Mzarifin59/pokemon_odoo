@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_res_partner,access_res_partner,model_res_partner,master_pokemon.group_pokemon_master,1,1,1,1
+access_pokemon_ability,access_pokemon_ability,model_pokemon_ability,master_pokemon.group_pokemon_master,1,1,1,1
+access_pokemon_game,access_pokemon_game,model_pokemon_game,master_pokemon.group_pokemon_master,1,1,1,1
+access_pokemon_move,access_pokemon_move,model_pokemon_move,master_pokemon.group_pokemon_master,1,1,1,1
+access_pokemon_stat,access_pokemon_stat,model_pokemon_stat,master_pokemon.group_pokemon_master,1,1,1,1

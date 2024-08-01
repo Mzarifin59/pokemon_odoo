@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="group_pokemon_master" model="res.groups">
+        <field name="name">Master Pokemon</field>
+        <field name="category_id" ref="base.module_category_hidden"/>
+    </record>
+
+        <record id="pokemon_master_rule" model="ir.rule">
+            <field name="name">Pokemon Master Access</field>
+            <field name="model_id" ref="model_res_partner"/>
+            <field name="groups" eval="[(4, ref('group_pokemon_master'))]"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_unlink" eval="True"/>
+        </record>
+</odoo>
