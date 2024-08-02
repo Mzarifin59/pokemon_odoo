@@ -1,3 +1,0 @@
-id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_custom_most_sold_items_report,access.custom.most.sold.items.report,model_custom_most_sold_items_report,sales_team.group_sale_manager,1,1,1,1
-access_product_expiry_report_user,access_product_expiry_report_user,model_product_template,sales_team.group_sale_manager,1,1,1,1
